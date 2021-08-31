@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@learning-monorepo/sample-stuff-common": [
+        "packages/sample-stuff-common/src/index.ts"
+      ],
+      "@learning-monorepo/sample-stuff-native": [
+        "packages/sample-stuff-native/src/index.ts"
+      ],
+      "@learning-monorepo/sample-stuff-web": [
+        "packages/sample-stuff-web/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

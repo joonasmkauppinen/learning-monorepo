@@ -1,0 +1,13 @@
+{
+  "name": "@learning-monorepo/sample-stuff-native",
+  "version": "0.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react-native": "^0.64.13",
+    "react-native": "^0.65.1"
+  },
+  "peerDependencies": {
+    "react-native": "^0.65.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+   "private": true,
+   "name": "example-monorepo",
+   "version": "0.0.0",
+   "workspaces": [
+      "packages/*",
+      "apps/*"
+   ],
+   "scripts": {
+      "start:client": "yarn workspace sample-react-client start"
+   },
+   "dependencies": {
+      "styled-components": "^5.3.1"
+   },
+   "devDependencies": {
+      "@types/styled-components": "^5.1.12",
+      "react": "^17.0.2",
+      "typescript": "^4.3.5"
+   }
+}

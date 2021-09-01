@@ -2,3 +2,4 @@ apps/*
 !apps/sample-react-client
 
 node_modules
+dist

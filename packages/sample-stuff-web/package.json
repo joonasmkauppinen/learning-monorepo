@@ -1,8 +1,10 @@
 {
   "name": "@learning-monorepo/sample-stuff-web",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@learning-monorepo/sample-stuff-common": "*"
+  },
   "devDependencies": {}
 }

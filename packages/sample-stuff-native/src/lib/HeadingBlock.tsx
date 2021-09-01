@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import {
   headingStyles,
   HeadingBlockProps,
-} from '@learning-monorepo/sample-stuff-common';
+} from '@joonasmkauppinen/sample-stuff-common';
 
 const StyledText = styled(Text)`
   ${headingStyles}

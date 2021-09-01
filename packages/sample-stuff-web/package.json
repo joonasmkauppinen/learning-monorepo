@@ -1,11 +1,11 @@
 {
-  "name": "@learning-monorepo/sample-stuff-web",
+  "name": "@joonasmkauppinen/sample-stuff-web",
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
   "repository": "https://github.com/joonasmkauppinen/learning-monorepo",
   "dependencies": {
-    "@learning-monorepo/sample-stuff-common": "*"
+    "@joonasmkauppinen/sample-stuff-common": "*"
   },
   "devDependencies": {}
 }

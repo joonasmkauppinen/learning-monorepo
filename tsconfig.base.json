@@ -16,13 +16,13 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
-      "@learning-monorepo/sample-stuff-common": [
+      "@joonasmkauppinen/sample-stuff-common": [
         "packages/sample-stuff-common/src/index.ts"
       ],
-      "@learning-monorepo/sample-stuff-native": [
+      "@joonasmkauppinen/sample-stuff-native": [
         "packages/sample-stuff-native/src/index.ts"
       ],
-      "@learning-monorepo/sample-stuff-web": [
+      "@joonasmkauppinen/sample-stuff-web": [
         "packages/sample-stuff-web/src/index.ts"
       ]
     }

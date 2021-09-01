@@ -1,3 +1,4 @@
 {
-  "branches": ["multi-semantic-release"]
+  "branches": ["multi-semantic-release"],
+  "noCi": true
 }

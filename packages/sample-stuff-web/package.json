@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
-  "repository": "https://github.com/joonasmkauppinen/learning-monorepo/sample-stuff-web",
+  "repository": "https://github.com/joonasmkauppinen/learning-monorepo",
   "dependencies": {
     "@learning-monorepo/sample-stuff-common": "*"
   },

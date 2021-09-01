@@ -4,7 +4,8 @@
   "version": "0.0.0-semantically-released",
   "workspaces": [
     "packages/*",
-    "apps/*"
+    "apps/*",
+    "!apps/sample-react-client"
   ],
   "scripts": {
     "start:client": "yarn workspace sample-react-client start"

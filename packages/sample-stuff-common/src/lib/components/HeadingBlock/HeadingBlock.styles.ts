@@ -5,4 +5,5 @@ export const headingStyles = css`
   font-weight: bold;
   color: red;
   line-height: 24px;
+  background-color: hotpink;
 `;

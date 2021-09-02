@@ -15,7 +15,7 @@
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1",
-    "@learning-monorepo/sample-stuff-web": "*"
+    "@joonasmkauppinen/sample-stuff-web": "*"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": "https://github.com/joonasmkauppinen/learning-monorepo",
   "dependencies": {
-    "@joonasmkauppinen/sample-stuff-common": "*"
+    "@joonasmkauppinen/sample-stuff-common": "1.0.0"
   },
   "devDependencies": {}
 }

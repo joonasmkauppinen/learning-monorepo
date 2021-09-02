@@ -12,6 +12,6 @@
     "react-native": "^0.65.1"
   },
   "dependencies": {
-    "@joonasmkauppinen/sample-stuff-common": "1.0.0"
+    "@joonasmkauppinen/sample-stuff-common": "*"
   }
 }

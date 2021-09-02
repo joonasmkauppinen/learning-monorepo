@@ -1,0 +1,28 @@
+name: Release workflow
+
+on:
+  push:
+    branches: [multi-semantic-release]
+  pull_request:
+    branches: [multi-semantic-release]
+
+jobs:
+  multi-semantic-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@v2
+
+      - name: Use Node 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Install dependencies 📦
+        run: yarn install --frozen-lockfile
+
+      - name: Multi semantic release 💮
+        run: yarn multi-semantic-release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

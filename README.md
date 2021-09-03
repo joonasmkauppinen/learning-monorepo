@@ -17,9 +17,9 @@ In the source code we'll always have the package version as `1.0.0`. In the rele
 
 {
   "name": "@organization/package-name",
-  "version": "1.0.0",                          <--- Fixed version locally. Updates in the release step based on repo tags.
+  "version": "1.0.0",                          // <--- Fixed version locally. Updates in the release step based on repo tags.
   "dependencies": {
-    "@organization/common-local-package": "*"  <--- Updates in the release step based on repo tags.
+    "@organization/common-local-package": "*"  // <--- Updates in the release step based on repo tags.
   }
 }
 ```

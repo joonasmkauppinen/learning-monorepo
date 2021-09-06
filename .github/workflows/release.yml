@@ -2,9 +2,19 @@ name: Release workflow
 
 on:
   push:
-    branches: [multi-semantic-release, multi-semantic-release-beta]
+    branches:
+      [
+        multi-semantic-release,
+        multi-semantic-release-beta,
+        multi-semantic-release-rc,
+      ]
   pull_request:
-    branches: [multi-semantic-release, multi-semantic-release-beta]
+    branches:
+      [
+        multi-semantic-release,
+        multi-semantic-release-beta,
+        multi-semantic-release-rc,
+      ]
 
 jobs:
   multi-semantic-release:

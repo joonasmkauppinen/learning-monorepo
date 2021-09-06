@@ -1,6 +1,7 @@
 {
   "branches": [
     { "name": "multi-semantic-release" },
-    { "name": "multi-semantic-release-beta", "prerelease": "beta" }
+    { "name": "multi-semantic-release-beta", "prerelease": "beta" },
+    { "name": "multi-semantic-release-rc", "prerelease": "rc" }
   ]
 }

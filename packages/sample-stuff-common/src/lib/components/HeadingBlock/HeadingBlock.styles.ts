@@ -6,4 +6,5 @@ export const headingStyles = css`
   color: red;
   line-height: 24px;
   background-color: hotpink;
+  padding: 20px;
 `;

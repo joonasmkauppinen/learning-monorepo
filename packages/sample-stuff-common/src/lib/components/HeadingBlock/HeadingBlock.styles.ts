@@ -7,5 +7,5 @@ export const headingStyles = css`
   line-height: 24px;
   background-color: hotpink;
   padding: 20px;
-  margin: 50px;
+  margin: 30px;
 `;

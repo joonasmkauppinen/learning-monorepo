@@ -2,6 +2,10 @@
   "branches": [
     { "name": "multi-semantic-release" },
     { "name": "multi-semantic-release-beta", "prerelease": "beta" },
-    { "name": "multi-semantic-release-rc", "prerelease": "rc" }
+    {
+      "name": "multi-semantic-release-rc",
+      "channel": "release candidate",
+      "prerelease": "rc"
+    }
   ]
 }

@@ -57,3 +57,5 @@ Here's an example of what the final `package.json` file will look like in the pu
 - [ ] Can we use different sematic-release configuration for different packages? Useful for apps in the monorepo and also we don't want to publish the common package, but might want to still generate changelog for it. It's noted in the multi-semantic-release docs that this is possible.
 - [ ] Can we commit the generated changelog back in to the correct packages folder.
 - [ ] Can we create pre-releases in a monorepo the same way it works in single repo.
+
+This line triggers a workflow run.

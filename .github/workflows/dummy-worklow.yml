@@ -1,6 +1,6 @@
 name: Release workflow
 
-on: pull
+on: pull_request
 
 jobs:
   test-on-pull:

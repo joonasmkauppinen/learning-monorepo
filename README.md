@@ -58,4 +58,4 @@ Here's an example of what the final `package.json` file will look like in the pu
 - [ ] Can we commit the generated changelog back in to the correct packages folder.
 - [ ] Can we create pre-releases in a monorepo the same way it works in single repo.
 
-Here's an update.
+Here's an update. And an other one!

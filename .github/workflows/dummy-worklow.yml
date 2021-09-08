@@ -1,0 +1,11 @@
+name: Release workflow
+
+on: pull
+
+jobs:
+  test-on-pull:
+    name: Test on pull trigger
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo string
+        run: echo "Hello this is a string"
